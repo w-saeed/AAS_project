@@ -1,0 +1,6 @@
+aas-core3.0
+pandas
+joblib
+fastapi
+uvicorn
+docker

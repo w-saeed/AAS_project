@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  main:
+    container_name: Builder
+    build:
+      context: ./main_service
+    volumes:
+      - ../data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./main_service/api-json.json:/app/api-json.json
+      - ./main_service/main.py:/app/main.py
+    command: ["python", "main.py"]
+
+  api:
+    container_name:  REST-API
+    build:
+      context: .                      
+      dockerfile: api_service/Dockerfile
+    volumes:
+      #- ./api-service/sensors.json:/app/sensors.json
+      - ./main_service/api-json.json:/app/api-json.json  # <-- Mounting api-json.json from main_service
+    ports:
+      - "8000:8000"
+
+  csv_loader:
+    container_name:  History-Storage
+    build:
+      context: ./history_storage
+    volumes:
+      - ../data:/csv_folder
+      - ./history_storage/sqlite_data:/sqlite_data
+    restart: unless-stopped
+    # Optional: run script every X seconds (e.g., every 60s)
+    command: >
+      sh -c "while true; do python main.py; sleep 30; done"

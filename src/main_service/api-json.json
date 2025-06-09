@@ -1,0 +1,428 @@
+[
+    {
+        "idShort": "sensor_1",
+        "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+                {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/idta/TimeSeries/Segments/LinkedSegment/1/1"
+                }
+            ]
+        },
+        "qualifiers": [
+            {
+                "type": "Cardinality",
+                "valueType": "xs:string",
+                "value": "ZeroToMany"
+            }
+        ],
+        "value": [
+            {
+                "category": "PARAMETER",
+                "idShort": "Name",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/Name/1/1"
+                        }
+                    ]
+                },
+                "value": [
+                    {
+                        "language": "en",
+                        "text": "sensor_1"
+                    }
+                ],
+                "modelType": "MultiLanguageProperty"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "Description",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/Description/1/1"
+                        }
+                    ]
+                },
+                "value": [
+                    {
+                        "language": "en",
+                        "text": "sensor_1 is responsible for measuring temperature"
+                    }
+                ],
+                "modelType": "MultiLanguageProperty"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "RecordCount",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/RecordCount/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "11",
+                "modelType": "Property"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "SamplingInterval",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "60.0",
+                "modelType": "Property"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "StartTime",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/StartTime/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "2025-04-01T00:00:00Z",
+                "modelType": "Property"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "EndTime",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/EndTime/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "2025-04-01T00:00:00Z",
+                "modelType": "Property"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "Endpoint",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Endpoint/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "http://localhost:8000/api/v1/aas/assetid/submodels/time-series/sensor_1/min",
+                "modelType": "Property"
+            }
+        ],
+        "modelType": "SubmodelElementCollection"
+    },
+    {
+        "idShort": "sensor_2",
+        "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+                {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/idta/TimeSeries/Segments/LinkedSegment/1/1"
+                }
+            ]
+        },
+        "qualifiers": [
+            {
+                "type": "Cardinality",
+                "valueType": "xs:string",
+                "value": "ZeroToMany"
+            }
+        ],
+        "value": [
+            {
+                "category": "PARAMETER",
+                "idShort": "Name",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/Name/1/1"
+                        }
+                    ]
+                },
+                "value": [
+                    {
+                        "language": "en",
+                        "text": "sensor_2"
+                    }
+                ],
+                "modelType": "MultiLanguageProperty"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "Description",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/Description/1/1"
+                        }
+                    ]
+                },
+                "value": [
+                    {
+                        "language": "en",
+                        "text": "sensor_2 is responsible for measuring pressure"
+                    }
+                ],
+                "modelType": "MultiLanguageProperty"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "RecordCount",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/RecordCount/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "11",
+                "modelType": "Property"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "SamplingInterval",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "60.0",
+                "modelType": "Property"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "StartTime",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/StartTime/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "2025-04-01T00:00:00Z",
+                "modelType": "Property"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "EndTime",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/EndTime/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "2025-04-01T00:00:00Z",
+                "modelType": "Property"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "Endpoint",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Endpoint/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "http://localhost:8000/api/v1/aas/assetid/submodels/time-series/sensor_2/min",
+                "modelType": "Property"
+            }
+        ],
+        "modelType": "SubmodelElementCollection"
+    },
+    {
+        "idShort": "sensor_w",
+        "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+                {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/idta/TimeSeries/Segments/LinkedSegment/1/1"
+                }
+            ]
+        },
+        "qualifiers": [
+            {
+                "type": "Cardinality",
+                "valueType": "xs:string",
+                "value": "ZeroToMany"
+            }
+        ],
+        "value": [
+            {
+                "category": "PARAMETER",
+                "idShort": "Name",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/Name/1/1"
+                        }
+                    ]
+                },
+                "value": [
+                    {
+                        "language": "en",
+                        "text": "sensor_w"
+                    }
+                ],
+                "modelType": "MultiLanguageProperty"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "Description",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/Description/1/1"
+                        }
+                    ]
+                },
+                "value": [
+                    {
+                        "language": "en",
+                        "text": "sensor_w is responsible for measuring temperature"
+                    }
+                ],
+                "modelType": "MultiLanguageProperty"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "RecordCount",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/RecordCount/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "1",
+                "modelType": "Property"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "SamplingInterval",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "0",
+                "modelType": "Property"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "StartTime",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/StartTime/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "2025-04-01T00:01:00Z",
+                "modelType": "Property"
+            },
+            {
+                "category": "VARIABLE",
+                "idShort": "EndTime",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Segment/EndTime/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "2025-04-01T00:01:00Z",
+                "modelType": "Property"
+            },
+            {
+                "category": "PARAMETER",
+                "idShort": "Endpoint",
+                "semanticId": {
+                    "type": "ExternalReference",
+                    "keys": [
+                        {
+                            "type": "GlobalReference",
+                            "value": "https://admin-shell.io/idta/TimeSeries/Endpoint/1/1"
+                        }
+                    ]
+                },
+                "valueType": "xs:string",
+                "value": "http://localhost:8000/api/v1/aas/assetid/submodels/time-series/sensor_w/min",
+                "modelType": "Property"
+            }
+        ],
+        "modelType": "SubmodelElementCollection"
+    }
+]

@@ -1,4 +1,4 @@
-# AAS Project
+# Asset Administration Shell Project
 
 This project provides a simple pipeline to convert CSV time series data into a JSON structure. It uses Docker for containerized processing.
 

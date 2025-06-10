@@ -3,7 +3,7 @@
 This project provides a simple pipeline to convert CSV time series data into a JSON structure. It uses Docker for containerized processing.
 
 
-![Screenshot 2025-06-10 154540](https://github.com/user-attachments/assets/04b49a4f-32c9-4f59-b6e6-f055d6eec654)
+![save_last](https://github.com/user-attachments/assets/c53c6f6b-07d6-4942-b2c9-097576f08376)
 
 
 ---

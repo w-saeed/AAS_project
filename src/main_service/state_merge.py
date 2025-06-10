@@ -23,6 +23,7 @@ class StateMerge:
                 idx = self.result[mask].index[0]
                 self.result.at[idx, "record_count"] += row["record_count"]
                 self.result.at[idx, "sampling_interval"] = row["sampling_interval"]
+                self.result.at[idx, "start_time"] = row["start_time"]
             else:
                 new_row = {
                     "sensor_id": row["sensor_id"],

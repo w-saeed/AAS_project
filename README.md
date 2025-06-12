@@ -1,7 +1,6 @@
 # Asset Administration Shell Project
 
-This project provides a simple pipeline to convert CSV time series data into a JSON structure. It uses Docker for containerized processing.
-
+This project automates the transformation of CSV data files into an Asset Administration Shell (AAS) models. It reads structured CSV files containing time series or asset-related data and converts them into standardized AAS submodels using the IDTA templates.
 
 ![save_last](https://github.com/user-attachments/assets/c53c6f6b-07d6-4942-b2c9-097576f08376)
 
